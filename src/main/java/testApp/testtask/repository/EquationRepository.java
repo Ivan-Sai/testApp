@@ -1,7 +1,7 @@
-package test.testtask.repository;
+package testApp.testtask.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import test.testtask.entity.Equation;
+import testApp.testtask.entity.Equation;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package test.testtask.entity;
+package testApp.testtask.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

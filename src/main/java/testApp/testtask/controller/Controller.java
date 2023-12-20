@@ -1,10 +1,10 @@
-package test.testtask.controller;
+package testApp.testtask.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import test.testtask.entity.Equation;
-import test.testtask.service.EquationService;
+import testApp.testtask.entity.Equation;
+import testApp.testtask.service.EquationService;
 
 import java.io.BufferedReader;
 import java.io.IOException;

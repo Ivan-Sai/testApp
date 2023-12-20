@@ -1,6 +1,6 @@
-package test.testtask.service;
+package testApp.testtask.service;
 
-import test.testtask.entity.Equation;
+import testApp.testtask.entity.Equation;
 
 import java.util.List;
 

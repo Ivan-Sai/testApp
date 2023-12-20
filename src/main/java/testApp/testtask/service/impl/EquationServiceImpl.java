@@ -1,4 +1,4 @@
-package test.testtask.service.impl;
+package testApp.testtask.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,9 +8,9 @@ import java.util.regex.Pattern;
 import lombok.AllArgsConstructor;
 import org.mvel2.MVEL;
 import org.springframework.stereotype.Service;
-import test.testtask.entity.Equation;
-import test.testtask.repository.EquationRepository;
-import test.testtask.service.EquationService;
+import testApp.testtask.entity.Equation;
+import testApp.testtask.repository.EquationRepository;
+import testApp.testtask.service.EquationService;
 
 @Service
 @AllArgsConstructor

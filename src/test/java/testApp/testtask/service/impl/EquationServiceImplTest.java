@@ -1,4 +1,4 @@
-package test.testtask.service.impl;
+package testApp.testtask.service.impl;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -6,14 +6,13 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import test.testtask.entity.Equation;
-import test.testtask.repository.EquationRepository;
+import testApp.testtask.entity.Equation;
+import testApp.testtask.repository.EquationRepository;
 
 import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
